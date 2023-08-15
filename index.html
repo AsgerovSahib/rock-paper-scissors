@@ -4,36 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <section class="game-info">
+    <section class="game-info container">
       <h1>Welcome to Rock - Paper - Scissors</h1>
       <p>About for game rulers</p>
-      <ul>
+      <ul class="rulers">
         <li>
-          You can choose
+          <div class="rulers-head">you can choose</div>
+
           <ul>
-            <li>rock</li>
-            <li>paper</li>
-            <li>scissors</li>
+            <li class="red">rock</li>
+            <li class="blue">paper</li>
+            <li class="green">scissors</li>
           </ul>
         </li>
         <li>
-          Opponent can choose
+          <div class="rulers-head">if you win you should this remember</div>
+
           <ul>
-            <li>rock</li>
-            <li>paper</li>
-            <li>scissors</li>
+            <li>
+              <img
+                width="150px"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/1200px-Rock-paper-scissors.svg.png"
+                alt=""
+              />
+            </li>
           </ul>
         </li>
-        <li>if you win you should this remember</li>
+
         <li>
-          <img width="200px"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/1200px-Rock-paper-scissors.svg.png"
-            alt=""
-          />
+          <div class="rulers-head">Opponent can choose</div>
+          <ul>
+            <li class="red">rock</li>
+            <li class="blue">paper</li>
+            <li class="green">scissors</li>
+          </ul>
         </li>
       </ul>
+    </section>
+    <section class="gamePlay">
+      <!--& player 1 about box -->
+      <div class="gameBox">
+        <div class="gamerAbout">
+          <div class="playerName">player name</div>
+          <div class="PlayerStatus">win or lose</div>
+          <div class="playerPont">point</div>
+        </div>
+        <div class="gameElement">
+          tas kait makas img
+          <!-- 
+            <img src="./images/rps_game_paper.png" alt="">
+          <img src="./images/rock2.png" alt="">
+         -->
+          <img width="200px" src="./images/Scissor.webp" alt="" />
+        </div>
+      </div>
+      <!--& game animation about box -->
+      <div>
+        <img width="350px" src="./images/rps.gif" alt="" />
+      </div>
+      <!--& player 2 about box -->
+      <div class="gameBox">
+        <div class="gamerAbout">
+          <div class="playerName">player name</div>
+          <div class="PlayerStatus">win or lose</div>
+          <div class="playerPont">point</div>
+        </div>
+        <div class="gameElement">
+          tas kait makas img
+          <!-- <img src="./images/rps_game_paper.png" alt="">
+          <img src="./images/rock2.png" alt=""> -->
+          <img width="200px" src="./images/Scissor.webp" alt="" />
+        </div>
+      </div>
     </section>
   </body>
 </html>
