@@ -14,6 +14,17 @@ myPlayerPonit = document.querySelector("my-playerPonit");
 
 //* addEventListener
 
+document.addEventListener("keydown", function (e) {
+  let duyme = e.key;
+  if(duyme==="r"){console.log("rock")}
+});
 
+document.addEventListener("keydown", function (e) {
+    let duyme = e.key;
+    if(duyme==="p"){console.log("paper")}
+  });
 
-
+  document.addEventListener("keydown", function (e) {
+    let duyme = e.key;
+    if(duyme==="s"){console.log("scissor")}
+  });
