@@ -43,7 +43,7 @@ function enemy_action() {
       enemy_action_value = "enemy-scissors";
       console.log(enemy_action_value);
       enemyGameElement.innerHTML =
-        "<img width='200px' src=./images/scissor.webp>";
+        "<img width='200px' src=./images/scissor.png>";
       break;
     default:
       break;
@@ -167,7 +167,7 @@ document.addEventListener("keydown", function (e) {
   if (duyme === "s") {
     console.log("scissors");
     let my_action_value = "my-scissors";
-    myGameElement.innerHTML = "<img width='200px' src=./images/scissor.webp>";
+    myGameElement.innerHTML = "<img width='200px' src=./images/scissor.png>";
     enemy_action();
     game(my_action_value);
   }
