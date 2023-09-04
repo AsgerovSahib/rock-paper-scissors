@@ -63,6 +63,7 @@ body {
   background-color: rgb(248, 230, 34);
   border-radius: 15px;
   max-width: 250px;
+  padding: 20px;
 }
 .gamerAbout {
   margin-top: 10px;
@@ -78,4 +79,18 @@ body {
   display: flex;
   justify-content: center;
   gap: 50px ;
+}
+
+/* winnner or loser or draw */
+.winner{
+  background-color: aqua;
+  border: solid 7px green;
+}
+.loser{
+  background-color: gray;
+  border: solid 7px black;
+}
+.draw{
+  background-color: white;
+  border: solid blue 7px;
 }
